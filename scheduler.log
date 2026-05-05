@@ -1,0 +1,106 @@
+[2026-05-02 05:28:39] === Scheduler server started ===
+[2026-05-02 05:28:39] Scheduler started
+[2026-05-02 05:28:39] Server listening
+[2026-05-02 05:28:46] Client connected: 127.0.0.1
+[2026-05-02 05:28:56] User login
+[2026-05-02 05:29:01] SUBMIT   PID=1    burst=5s
+[2026-05-02 05:29:01] DISPATCH  PID=1    remaining=5  s  slice=3 s  ready=1  algo=RR
+[2026-05-02 05:29:04] PREEMPT   PID=1    used=3 s  remaining=2  s  → back to queue
+[2026-05-02 05:29:04] DISPATCH  PID=1    remaining=2  s  slice=2 s  ready=1  algo=RR
+[2026-05-02 05:29:06] FINISHED  PID=1    burst=5s  all slices complete
+[2026-05-02 05:29:12] SUBMIT   PID=2    burst=12s
+[2026-05-02 05:29:12] DISPATCH  PID=2    remaining=12 s  slice=3 s  ready=1  algo=RR
+[2026-05-02 05:29:15] PREEMPT   PID=2    used=3 s  remaining=9  s  → back to queue
+[2026-05-02 05:29:15] DISPATCH  PID=2    remaining=9  s  slice=3 s  ready=1  algo=RR
+[2026-05-02 05:29:18] PREEMPT   PID=2    used=3 s  remaining=6  s  → back to queue
+[2026-05-02 05:29:18] DISPATCH  PID=2    remaining=6  s  slice=3 s  ready=1  algo=RR
+[2026-05-02 05:29:21] PREEMPT   PID=2    used=3 s  remaining=3  s  → back to queue
+[2026-05-02 05:29:21] DISPATCH  PID=2    remaining=3  s  slice=3 s  ready=1  algo=RR
+[2026-05-02 05:29:24] FINISHED  PID=2    burst=12s  all slices complete
+[2026-05-02 05:34:45] SUBMIT   PID=3    burst=20s
+[2026-05-02 05:34:45] DISPATCH  PID=3    remaining=20 s  slice=3 s  ready=1  algo=RR
+[2026-05-02 05:34:48] PREEMPT   PID=3    used=3 s  remaining=17 s  → back to queue
+[2026-05-02 05:34:48] DISPATCH  PID=3    remaining=17 s  slice=3 s  ready=1  algo=RR
+[2026-05-02 05:34:51] PREEMPT   PID=3    used=3 s  remaining=14 s  → back to queue
+[2026-05-02 05:34:51] DISPATCH  PID=3    remaining=14 s  slice=3 s  ready=1  algo=RR
+[2026-05-02 05:34:54] PREEMPT   PID=3    used=3 s  remaining=11 s  → back to queue
+[2026-05-02 05:34:54] DISPATCH  PID=3    remaining=11 s  slice=3 s  ready=1  algo=RR
+[2026-05-02 05:34:57] PREEMPT   PID=3    used=3 s  remaining=8  s  → back to queue
+[2026-05-02 05:34:57] DISPATCH  PID=3    remaining=8  s  slice=3 s  ready=1  algo=RR
+[2026-05-02 05:35:00] PREEMPT   PID=3    used=3 s  remaining=5  s  → back to queue
+[2026-05-02 05:35:00] DISPATCH  PID=3    remaining=5  s  slice=3 s  ready=1  algo=RR
+[2026-05-02 05:35:03] Client connected: 127.0.0.1
+[2026-05-02 05:35:03] PREEMPT   PID=3    used=3 s  remaining=2  s  → back to queue
+[2026-05-02 05:35:03] DISPATCH  PID=3    remaining=2  s  slice=2 s  ready=1  algo=RR
+[2026-05-02 05:35:05] FINISHED  PID=3    burst=20s  all slices complete
+[2026-05-02 05:35:08] Admin login
+[2026-05-02 05:35:18] SUBMIT   PID=4    burst=13s
+[2026-05-02 05:35:18] DISPATCH  PID=4    remaining=13 s  slice=3 s  ready=1  algo=RR
+[2026-05-02 05:35:21] KILLED   PID=4    (by admin)
+[2026-05-02 05:45:20] === Scheduler server started ===
+[2026-05-02 05:45:20] Scheduler started
+[2026-05-02 05:45:20] Server listening
+[2026-05-02 10:17:18] === Scheduler server started ===
+[2026-05-02 10:17:18] Scheduler started
+[2026-05-02 10:17:18] Server listening
+[2026-05-02 10:59:55] === Scheduler server started ===
+[2026-05-02 10:59:55] Server listening
+[2026-05-02 10:59:55] Scheduler started
+[2026-05-02 11:00:00] Client connected: 127.0.0.1
+[2026-05-02 11:00:09] Client connected: 127.0.0.1
+[2026-05-02 11:00:12] Admin login
+[2026-05-02 11:00:17] Admin login
+[2026-05-02 11:00:37] Algorithm changed to FCFS
+[2026-05-02 11:00:37] Algorithm changed to Round Robin
+[2026-05-02 11:00:51] Client disconnected: 127.0.0.1
+[2026-05-02 11:00:55] Client disconnected: 127.0.0.1
+[2026-05-02 11:01:19] Client connected: 127.0.0.1
+[2026-05-02 11:01:23] Client disconnected: 127.0.0.1
+[2026-05-02 11:51:57] === Scheduler server started ===
+[2026-05-02 11:51:57] Server listening
+[2026-05-02 11:51:57] Scheduler started
+[2026-05-02 11:52:06] Client connected: 127.0.0.1
+[2026-05-02 11:53:17] Client disconnected: 127.0.0.1
+[2026-05-02 11:53:29] Client connected: 127.0.0.1
+[2026-05-02 11:53:44] User login
+[2026-05-02 11:53:52] SUBMIT   PID=1    burst=10s
+[2026-05-02 11:53:52] DISPATCH  PID=1    remaining=10 s  slice=2 s  ready=1  algo=RR
+[2026-05-02 11:53:54] PREEMPT   PID=1    used=2 s  remaining=8  s  → back to queue
+[2026-05-02 11:53:54] DISPATCH  PID=1    remaining=8  s  slice=2 s  ready=1  algo=RR
+[2026-05-02 11:53:56] PREEMPT   PID=1    used=2 s  remaining=6  s  → back to queue
+[2026-05-02 11:53:56] DISPATCH  PID=1    remaining=6  s  slice=2 s  ready=1  algo=RR
+[2026-05-02 11:53:58] PREEMPT   PID=1    used=2 s  remaining=4  s  → back to queue
+[2026-05-02 11:53:58] DISPATCH  PID=1    remaining=4  s  slice=2 s  ready=1  algo=RR
+[2026-05-02 11:54:00] PREEMPT   PID=1    used=2 s  remaining=2  s  → back to queue
+[2026-05-02 11:54:00] DISPATCH  PID=1    remaining=2  s  slice=2 s  ready=1  algo=RR
+[2026-05-02 11:54:02] FINISHED  PID=1    burst=10s  all slices complete
+[2026-05-02 11:54:14] Client connected: 127.0.0.1
+[2026-05-02 11:54:18] User login
+[2026-05-02 11:55:14] SUBMIT   PID=2    burst=12s
+[2026-05-02 11:55:14] DISPATCH  PID=2    remaining=12 s  slice=2 s  ready=1  algo=RR
+[2026-05-02 11:55:16] SUBMIT   PID=3    burst=13s
+[2026-05-02 11:55:16] PREEMPT   PID=2    used=2 s  remaining=10 s  → back to queue
+[2026-05-02 11:55:16] DISPATCH  PID=3    remaining=13 s  slice=2 s  ready=2  algo=RR
+[2026-05-02 11:55:18] PREEMPT   PID=3    used=2 s  remaining=11 s  → back to queue
+[2026-05-02 11:55:18] DISPATCH  PID=2    remaining=10 s  slice=2 s  ready=2  algo=RR
+[2026-05-02 11:55:20] PREEMPT   PID=2    used=2 s  remaining=8  s  → back to queue
+[2026-05-02 11:55:20] DISPATCH  PID=3    remaining=11 s  slice=2 s  ready=2  algo=RR
+[2026-05-02 11:55:22] PREEMPT   PID=3    used=2 s  remaining=9  s  → back to queue
+[2026-05-02 11:55:22] DISPATCH  PID=2    remaining=8  s  slice=2 s  ready=2  algo=RR
+[2026-05-02 11:55:24] PREEMPT   PID=2    used=2 s  remaining=6  s  → back to queue
+[2026-05-02 11:55:24] DISPATCH  PID=3    remaining=9  s  slice=2 s  ready=2  algo=RR
+[2026-05-02 11:55:26] PREEMPT   PID=3    used=2 s  remaining=7  s  → back to queue
+[2026-05-02 11:55:26] DISPATCH  PID=2    remaining=6  s  slice=2 s  ready=2  algo=RR
+[2026-05-02 11:55:28] PREEMPT   PID=2    used=2 s  remaining=4  s  → back to queue
+[2026-05-02 11:55:28] DISPATCH  PID=3    remaining=7  s  slice=2 s  ready=2  algo=RR
+[2026-05-02 11:55:30] PREEMPT   PID=3    used=2 s  remaining=5  s  → back to queue
+[2026-05-02 11:55:30] DISPATCH  PID=2    remaining=4  s  slice=2 s  ready=2  algo=RR
+[2026-05-02 11:55:32] PREEMPT   PID=2    used=2 s  remaining=2  s  → back to queue
+[2026-05-02 11:55:32] DISPATCH  PID=3    remaining=5  s  slice=2 s  ready=2  algo=RR
+[2026-05-02 11:55:34] PREEMPT   PID=3    used=2 s  remaining=3  s  → back to queue
+[2026-05-02 11:55:34] DISPATCH  PID=2    remaining=2  s  slice=2 s  ready=2  algo=RR
+[2026-05-02 11:55:36] FINISHED  PID=2    burst=12s  all slices complete
+[2026-05-02 11:55:36] DISPATCH  PID=3    remaining=3  s  slice=2 s  ready=1  algo=RR
+[2026-05-02 11:55:38] PREEMPT   PID=3    used=2 s  remaining=1  s  → back to queue
+[2026-05-02 11:55:38] DISPATCH  PID=3    remaining=1  s  slice=1 s  ready=1  algo=RR
+[2026-05-02 11:55:39] FINISHED  PID=3    burst=13s  all slices complete
